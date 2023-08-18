@@ -632,17 +632,172 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Utilities</GroupName>
-        </Group>
-        <Group>
-          <GroupName>Doc</GroupName>
+          <GroupName>rt-thread</GroupName>
           <Files>
             <File>
-              <FileName>readme.md</FileName>
+              <FileName>rtconfig.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\readme.md</FilePath>
+              <FilePath>.\rt-thread\bsp\rtconfig.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\bsp\board.c</FilePath>
+            </File>
+            <File>
+              <FileName>clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>components.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\components.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\cpu.c</FilePath>
+            </File>
+            <File>
+              <FileName>idle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\idle.c</FilePath>
+            </File>
+            <File>
+              <FileName>ipc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\ipc.c</FilePath>
+            </File>
+            <File>
+              <FileName>irq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\irq.c</FilePath>
+            </File>
+            <File>
+              <FileName>kservice.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\kservice.c</FilePath>
+            </File>
+            <File>
+              <FileName>mem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\mem.c</FilePath>
+            </File>
+            <File>
+              <FileName>memheap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\memheap.c</FilePath>
+            </File>
+            <File>
+              <FileName>mempool.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\mempool.c</FilePath>
+            </File>
+            <File>
+              <FileName>object.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\object.c</FilePath>
+            </File>
+            <File>
+              <FileName>scheduler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\scheduler.c</FilePath>
+            </File>
+            <File>
+              <FileName>slab.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\slab.c</FilePath>
+            </File>
+            <File>
+              <FileName>thread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\thread.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\device\device.c</FilePath>
+            </File>
+            <File>
+              <FileName>cmd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\cmd.c</FilePath>
+            </File>
+            <File>
+              <FileName>finsh.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_api.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_api.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>msh.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\msh.c</FilePath>
+            </File>
+            <File>
+              <FileName>msh.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\msh.h</FilePath>
+            </File>
+            <File>
+              <FileName>shell.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\shell.c</FilePath>
+            </File>
+            <File>
+              <FileName>shell.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\shell.h</FilePath>
+            </File>
+            <File>
+              <FileName>backtrace.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\backtrace.c</FilePath>
+            </File>
+            <File>
+              <FileName>div0.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\div0.c</FilePath>
+            </File>
+            <File>
+              <FileName>showmem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\showmem.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpuport.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\cortex-m3\cpuport.c</FilePath>
+            </File>
+            <File>
+              <FileName>context_rvds.S</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\cortex-m3\context_rvds.S</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>Utilities</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -692,7 +847,7 @@
           <OutputName>app</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
-          <CreateHexFile>1</CreateHexFile>
+          <CreateHexFile>0</CreateHexFile>
           <DebugInformation>1</DebugInformation>
           <BrowseInformation>1</BrowseInformation>
           <ListingPath>.\list\</ListingPath>
@@ -941,7 +1096,7 @@
               <OCR_RVCT9>
                 <Type>0</Type>
                 <StartAddress>0x20000000</StartAddress>
-                <Size>0xc000</Size>
+                <Size>0x180000</Size>
               </OCR_RVCT9>
               <OCR_RVCT10>
                 <Type>0</Type>
@@ -979,7 +1134,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F30X_HD</Define>
               <Undefine></Undefine>
-              <IncludePath>.\Firmware\CMSIS;.\Firmware\CMSIS\GD\GD32F30x\Include;.\Firmware\GD32F30x_standard_peripheral\Include;.\User</IncludePath>
+              <IncludePath>.\Firmware\CMSIS;.\Firmware\CMSIS\GD\GD32F30x\Include;.\Firmware\GD32F30x_standard_peripheral\Include;.\User;.\rt-thread\bsp;.\rt-thread\include;.\rt-thread\include\libc;.\rt-thread\components\finsh</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -1272,17 +1427,172 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Utilities</GroupName>
-        </Group>
-        <Group>
-          <GroupName>Doc</GroupName>
+          <GroupName>rt-thread</GroupName>
           <Files>
             <File>
-              <FileName>readme.md</FileName>
+              <FileName>rtconfig.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\readme.md</FilePath>
+              <FilePath>.\rt-thread\bsp\rtconfig.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\bsp\board.c</FilePath>
+            </File>
+            <File>
+              <FileName>clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>components.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\components.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\cpu.c</FilePath>
+            </File>
+            <File>
+              <FileName>idle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\idle.c</FilePath>
+            </File>
+            <File>
+              <FileName>ipc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\ipc.c</FilePath>
+            </File>
+            <File>
+              <FileName>irq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\irq.c</FilePath>
+            </File>
+            <File>
+              <FileName>kservice.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\kservice.c</FilePath>
+            </File>
+            <File>
+              <FileName>mem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\mem.c</FilePath>
+            </File>
+            <File>
+              <FileName>memheap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\memheap.c</FilePath>
+            </File>
+            <File>
+              <FileName>mempool.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\mempool.c</FilePath>
+            </File>
+            <File>
+              <FileName>object.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\object.c</FilePath>
+            </File>
+            <File>
+              <FileName>scheduler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\scheduler.c</FilePath>
+            </File>
+            <File>
+              <FileName>slab.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\slab.c</FilePath>
+            </File>
+            <File>
+              <FileName>thread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\thread.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\device\device.c</FilePath>
+            </File>
+            <File>
+              <FileName>cmd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\cmd.c</FilePath>
+            </File>
+            <File>
+              <FileName>finsh.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_api.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_api.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>msh.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\msh.c</FilePath>
+            </File>
+            <File>
+              <FileName>msh.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\msh.h</FilePath>
+            </File>
+            <File>
+              <FileName>shell.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\shell.c</FilePath>
+            </File>
+            <File>
+              <FileName>shell.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\shell.h</FilePath>
+            </File>
+            <File>
+              <FileName>backtrace.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\backtrace.c</FilePath>
+            </File>
+            <File>
+              <FileName>div0.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\div0.c</FilePath>
+            </File>
+            <File>
+              <FileName>showmem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\showmem.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpuport.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\cortex-m3\cpuport.c</FilePath>
+            </File>
+            <File>
+              <FileName>context_rvds.S</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\cortex-m3\context_rvds.S</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>Utilities</GroupName>
         </Group>
       </Groups>
     </Target>
@@ -1912,17 +2222,172 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>Utilities</GroupName>
-        </Group>
-        <Group>
-          <GroupName>Doc</GroupName>
+          <GroupName>rt-thread</GroupName>
           <Files>
             <File>
-              <FileName>readme.md</FileName>
+              <FileName>rtconfig.h</FileName>
               <FileType>5</FileType>
-              <FilePath>..\..\readme.md</FilePath>
+              <FilePath>.\rt-thread\bsp\rtconfig.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>board.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\bsp\board.c</FilePath>
+            </File>
+            <File>
+              <FileName>clock.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\clock.c</FilePath>
+            </File>
+            <File>
+              <FileName>components.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\components.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\cpu.c</FilePath>
+            </File>
+            <File>
+              <FileName>idle.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\idle.c</FilePath>
+            </File>
+            <File>
+              <FileName>ipc.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\ipc.c</FilePath>
+            </File>
+            <File>
+              <FileName>irq.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\irq.c</FilePath>
+            </File>
+            <File>
+              <FileName>kservice.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\kservice.c</FilePath>
+            </File>
+            <File>
+              <FileName>mem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\mem.c</FilePath>
+            </File>
+            <File>
+              <FileName>memheap.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\memheap.c</FilePath>
+            </File>
+            <File>
+              <FileName>mempool.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\mempool.c</FilePath>
+            </File>
+            <File>
+              <FileName>object.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\object.c</FilePath>
+            </File>
+            <File>
+              <FileName>scheduler.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\scheduler.c</FilePath>
+            </File>
+            <File>
+              <FileName>slab.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\slab.c</FilePath>
+            </File>
+            <File>
+              <FileName>thread.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\thread.c</FilePath>
+            </File>
+            <File>
+              <FileName>timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\src\timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>device.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\device\device.c</FilePath>
+            </File>
+            <File>
+              <FileName>cmd.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\cmd.c</FilePath>
+            </File>
+            <File>
+              <FileName>finsh.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_api.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_api.h</FilePath>
+            </File>
+            <File>
+              <FileName>finsh_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\finsh_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>msh.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\msh.c</FilePath>
+            </File>
+            <File>
+              <FileName>msh.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\msh.h</FilePath>
+            </File>
+            <File>
+              <FileName>shell.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\components\finsh\shell.c</FilePath>
+            </File>
+            <File>
+              <FileName>shell.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\rt-thread\components\finsh\shell.h</FilePath>
+            </File>
+            <File>
+              <FileName>backtrace.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\backtrace.c</FilePath>
+            </File>
+            <File>
+              <FileName>div0.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\div0.c</FilePath>
+            </File>
+            <File>
+              <FileName>showmem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\common\showmem.c</FilePath>
+            </File>
+            <File>
+              <FileName>cpuport.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\cortex-m3\cpuport.c</FilePath>
+            </File>
+            <File>
+              <FileName>context_rvds.S</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\rt-thread\libcpu\arm\cortex-m3\context_rvds.S</FilePath>
             </File>
           </Files>
+        </Group>
+        <Group>
+          <GroupName>Utilities</GroupName>
         </Group>
       </Groups>
     </Target>
