@@ -30,4 +30,4 @@
   Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h \
   Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h \
   Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h \
-  User\main.h User\systick.h
+  User\systick.h

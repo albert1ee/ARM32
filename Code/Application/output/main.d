@@ -30,5 +30,4 @@
   Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_misc.h \
   Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h \
   Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h \
-  User\systick.h D:\App\Keil\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  User\main.h
+  User\systick.h D:\App\Keil\ARM\ARMCLANG\Bin\..\include\stdio.h

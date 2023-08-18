@@ -1,11 +1,11 @@
 /*!
     \file    main.c
-    \brief   led spark with systick, USART print and key example
+    \brief   running led
 
     \version 2017-02-10, V1.0.0, firmware for GD32F30x
     \version 2018-10-10, V1.1.0, firmware for GD32F30x
     \version 2018-12-25, V2.0.0, firmware for GD32F30x
-    \version 2020-09-30, V2.1.0, firmware for GD32F30x 
+    \version 2020-09-30, V2.1.0, firmware for GD32F30x
 */
 
 /*
@@ -38,8 +38,6 @@ OF SUCH DAMAGE.
 #include "gd32f30x.h"
 #include "systick.h"
 #include <stdio.h>
-#include "main.h"
-
 
 /*!
     \brief      main function
@@ -47,32 +45,30 @@ OF SUCH DAMAGE.
     \param[out] none
     \retval     none
 */
-
 int main(void)
 {
-    /* configure systick */
-    systick_config();
-    
-    /* print out the clock frequency of system, AHB, APB1 and APB2 */
-    printf("\r\nCK_SYS is %d", rcu_clock_freq_get(CK_SYS));
-    printf("\r\nCK_AHB is %d", rcu_clock_freq_get(CK_AHB));
-    printf("\r\nCK_APB1 is %d", rcu_clock_freq_get(CK_APB1));
-    printf("\r\nCK_APB2 is %d", rcu_clock_freq_get(CK_APB2));
+//    systick_config();
+//    gd_eval_led_init(LED2);
+//    gd_eval_led_init(LED3);
+//    gd_eval_led_init(LED4);
+//    gd_eval_led_init(LED5);
 
-    while (1){
-        if(RESET == 1){
-
-            delay_1ms(500);
-
-        }
+    while(1){
+//        /* turn on led2, turn off led5 */
+//        gd_eval_led_on(LED2);
+//        gd_eval_led_off(LED5);
+//        delay_1ms(1000);
+//        /* turn on led3, turn off led2 */
+//        gd_eval_led_on(LED3);
+//        gd_eval_led_off(LED2);
+//        delay_1ms(1000);
+//        /* turn on led4, turn off led3 */
+//        gd_eval_led_on(LED4);
+//        gd_eval_led_off(LED3);
+//        delay_1ms(1000);
+//        /* turn on led5, turn off led4 */
+//        gd_eval_led_on(LED5);
+//        gd_eval_led_off(LED4);
+//        delay_1ms(1000);
     }
-}
-
-/* retarget the C library printf function to the USART */
-int fputc(int ch, FILE *f)
-{
-    usart_data_transmit(1, (uint8_t)ch);
-    while(RESET == usart_flag_get(1, USART_FLAG_TBE));
-
-    return ch;
 }
