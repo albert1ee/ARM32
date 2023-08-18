@@ -1,6 +1,6 @@
 Dependencies for Project 'app', Target 'GD32F30X_HD': (DO NOT MODIFY !)
 CompilerVersion: 6160000::V6.16::ARMCLANG
-F (.\User\main.c)(0x64DF22A5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F30x/Include -I ./Firmware/GD32F30x_standard_peripheral/Include -I ./User -I ./rt-thread/bsp -I ./rt-thread/include -I ./rt-thread/include/libc -I ./rt-thread/components/finsh-ID:/App/Keil/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.0/Device/Include-D__UVISION_VERSION="536" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./output/main.o -MD)
+F (.\User\main.c)(0x64DF4773)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F30x/Include -I ./Firmware/GD32F30x_standard_peripheral/Include -I ./User -I ./rt-thread/bsp -I ./rt-thread/include -I ./rt-thread/include/libc -I ./rt-thread/components/finsh-ID:/App/Keil/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.0/Device/Include-D__UVISION_VERSION="536" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./output/main.o -MD)
 I (Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x61CC215C)
 I (Firmware\CMSIS\core_cm4.h)(0x61CC215C)
 I (D:\App\Keil\ARM\ARMCLANG\include\stdint.h)(0x603507D0)
@@ -35,6 +35,14 @@ I (Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_enet.h)(0x62A6E3C7)
 I (Firmware\GD32F30x_standard_peripheral\Include\gd32f30x_exmc.h)(0x61CC215C)
 I (User\systick.h)(0x61CC2162)
 I (D:\App\Keil\ARM\ARMCLANG\include\stdio.h)(0x603507D4)
+I (rt-thread\include\rtthread.h)(0x60ECB3DC)
+I (rt-thread\bsp\rtconfig.h)(0x64DF3744)
+I (rt-thread\components\finsh\finsh_config.h)(0x64DF3C17)
+I (rt-thread\include\rtdebug.h)(0x60ECB3DC)
+I (rt-thread\include\rtdef.h)(0x60ECB3DC)
+I (D:\App\Keil\ARM\ARMCLANG\include\stdarg.h)(0x603507D4)
+I (rt-thread\include\rtservice.h)(0x60ECB3DC)
+I (rt-thread\components\finsh\finsh_api.h)(0x60ECB3DC)
 F (.\User\gd32f30x_it.c)(0x64DF41A4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./Firmware/CMSIS -I ./Firmware/CMSIS/GD/GD32F30x/Include -I ./Firmware/GD32F30x_standard_peripheral/Include -I ./User -I ./rt-thread/bsp -I ./rt-thread/include -I ./rt-thread/include/libc -I ./rt-thread/components/finsh-ID:/App/Keil/Arm/Packs/GigaDevice/GD32F30x_DFP/2.2.0/Device/Include-D__UVISION_VERSION="536" -DGD32F30X_HD -DUSE_STDPERIPH_DRIVER -DGD32F30X_HD-o ./output/gd32f30x_it.o -MD)
 I (User\gd32f30x_it.h)(0x61CC2162)
 I (Firmware\CMSIS\GD\GD32F30x\Include\gd32f30x.h)(0x61CC215C)

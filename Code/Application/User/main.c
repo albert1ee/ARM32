@@ -39,12 +39,27 @@ OF SUCH DAMAGE.
 #include "systick.h"
 #include <stdio.h>
 
+#include "rtthread.h"
+
 /*!
     \brief      main function
     \param[in]  none
     \param[out] none
     \retval     none
 */
+
+
+void reset(int argc,char**argv)
+{
+	NVIC_SystemReset();
+}
+MSH_CMD_EXPORT(reset, soft reset device);
+
+
+
+
+
+
 int main(void)
 {
 //    systick_config();
